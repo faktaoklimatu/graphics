@@ -1,0 +1,35 @@
+name: Changelog generation
+on:
+  push:
+    branches: [main]
+jobs:
+  changelogs:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Check out sources
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+            python-version: '^ 3.7'
+
+      - name: Generate changelogs
+        run: |
+          git log -z --reverse --pretty='format:%H %at %s%n%b' \
+            --diff-filter=AM ${{ github.event.before }}.. -- \*.ai | \
+            _util/generate_changelogs.py ${{ github.repository }}
+
+      - name: Commit and push changes
+        run: |
+          [[ -z $(git status --short) ]] && \
+            echo 'No change in changelogs' && \
+            exit
+
+          git config --local user.name 'github-actions[bot]'
+          git config --local user.email 'github-actions@github.com'
+          git add .
+          git commit --message 'Update changelogs'
+          git push
