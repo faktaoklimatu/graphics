@@ -8,6 +8,7 @@ import re
 from subprocess import PIPE, run
 import sys
 from typing import Dict, List, Optional
+import urllib.parse
 
 
 IGNORED_COMMIT_RE = re.compile(r'^\s*\[(skip|ignore)\]\s*$',
@@ -98,7 +99,8 @@ class Commit:
 
 
 def make_github_blob_url(repository: str, commit: Commit, path: Path) -> str:
-    return f'https://github.com/{repository}/blob/{commit.sha1}/{path}'
+    path_encoded = urllib.parse.quote(str(path))
+    return f'https://github.com/{repository}/blob/{commit.sha1}/{path_encoded}'
 
 
 if __name__ == '__main__':
