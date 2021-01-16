@@ -5,7 +5,7 @@ from datetime import datetime
 import logging
 from pathlib import Path
 import re
-from subprocess import run, PIPE
+from subprocess import PIPE, run
 import sys
 from typing import Dict, List, Optional
 
@@ -102,7 +102,9 @@ def make_github_blob_url(repository: str, commit: Commit, path: Path) -> str:
 
 
 if __name__ == '__main__':
-    github_repository = sys.argv[1] if len(sys.argv) > 1 else 'faktaoklimatu/graphics'
+    github_repository = 'faktaoklimatu/graphics'
+    if len(sys.argv) > 1:
+        github_repository = sys.argv[1]
 
     logging.basicConfig(format='[%(levelname)s] %(message)s',
                         level=logging.INFO)
@@ -110,6 +112,7 @@ if __name__ == '__main__':
 
     git_log_output = sys.stdin.read()
     if not git_log_output:
+        logging.info('No relevant commits to process')
         sys.exit(0)
 
     changelogs: Dict[Path, str] = defaultdict(str)
