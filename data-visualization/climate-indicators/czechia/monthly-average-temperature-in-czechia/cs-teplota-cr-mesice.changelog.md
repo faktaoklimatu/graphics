@@ -1,3 +1,7 @@
+## [2021-02-27](https://github.com/faktaoklimatu/graphics/blob/adefb31b63777cf27201c761c1f134d9d4c3ba09/data-visualization/climate-indicators/czechia/monthly-average-temperature-in-czechia/cs-teplota-cr-mesice.ai)
+
+- Update graphic with data for 2020.
+
 ## [2020-10-23](https://github.com/faktaoklimatu/graphics/blob/b253427fcc97a23462362b3a7615fba73ef8dc32/Data%20visualization/Climate%20indicators/Czechia/Monthly%20average%20temperature%20in%20Czechia/cs-teplota-cr-mesice.ai)
 
 - Initial upload to git.
