@@ -1,23 +1,32 @@
 I am just a baby readme page. But expect me to grow up soon. :)
 
+## Table of Contents
+
+* [Repository Structure](#repository-structure)
+* [Committing Guidelines](#committing-guidelines)
+* [Fonts We Use](#fonts-we-use)
+* [Templates](#templates)
+* [Typography Guidelines](#typography-guidelines)
+* [License](#license)
+
 ## Repository Structure
 
 The repository is organised into two main directories: a) `data-visualization` which contains the source (AI) and published (PDF) files and changelogs for all our graphics, and b) `Brand` containing source files for the _Fakta o klimatu_ visual brand.
 
 The `data-visualization` directory is furthermore structured hierarchically as follows:
 
-1.  The first level of the hierarchy encompasses a broad categorization into (at the moment) four main categories: `climate-indicators`, `emissions`, `energetics`, `future` and `policies`.
-2.  At the second level we divide the graphics into four geographic regions: `czechia`, `slovakia`, `european-union` or `world`.
+1.  The first level of the hierarchy encompasses a **broad categorization** into (at the moment) four main categories: `climate-indicators`, `emissions`, `energetics`, `future` and `policies`.
+2.  At the second level we divide the graphics into four **geographic regions**: `czechia`, `slovakia`, `european-union` or `world`.
 
     This classification is common among all first-level categories, i.e. we can have `climate-indicators/world/` as well as `policies/world/` or `policies/european-union/`.
-3.  The topic of a graphic or a set of graphics is specified at the third level.
+3.  The **topic** of a graphic or a set of graphics is specified at the third level.
 
     This can be, for example, `ghg-emissions-in-czechia-by-sector` for the [donut chart](https://faktaoklimatu.cz/infografiky/emise-cr-detail) of Czechia's greenhouse gas emissions (and its variations) or `carbon-pricing` for the [map](https://faktaoklimatu.cz/infografiky/zpoplatneni-emisi-svet) of carbon pricing schemes in countries across the world.
-4.  The language and title of a specific graphic is given in the file name.
+4.  The **language** and the **title** of a specific graphic is given in its file name in the format `<language>-<title>.ai`, for example `cs-emise-cr.ai` or `en-emissions-czechia.ai`.
 
-    The language is given by its two-letter [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
+    The language is specified by its two-letter [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), for instance `cs` for Czech, `en` for English, `fa` for Persian, etc.
 
-    TODO: Continue.
+<mark>TODO: Explain the different extensions/file types and their relations – `.ai`, `.pdf`, `.changelog.md`.</mark>
 
 The `_util` directory contains source code for the repository's automation facilities.
 
@@ -47,57 +56,69 @@ Each major (published) change in a graphic or set of related graphics should be 
 
 Every AI file has a corresponding changelog file associated with it. The changelog file name is the same as the source file except for the extension `.changelog.md`. For instance,
 
-Every time a change is made to an `.ai` file,
- an entry is added to the corresponding changelog. The changelog contains the title and a description from the commit message and automatically dates the entry to the date of the commit message.
+Every time a change is made to an AI file, an entry is added to the corresponding changelog. The entry consists only of the body of commit message, i.e. the third and following lines. The graphic version is automatically derived from the date of the commit, i.e. a change committed on March 15, 2020 would automatically be assigned the version `2020-03-15`. (Though this can be overridden, see below.)
 
-Conventions for writing commit messages:
+We follow several established conventions for writing commit messages in the repository (see below for examples):
 
-* First line should not be longer than 50 characters. Subsequent lines should be wrapped at 72 characters.
-* Each change is listed on an individual line.
-* Each change should be
-* A list item starts with a capital letter and ends with a periods. `- I am a single change description.`.
-* Use present tense/imperative mood.
-* Use `[skip]` or `[ignore]` at the end of a commit message (on a seperate line) to avoid creating a changelog entry.
-* Use `[version=yyyy-mm-dd]` to enforce a version different from the one that would be derived from the commit date.
+* Keep the first line (subject) of the commit message to 50 characters or fewer. Keep the second line empty. Wrap all subsequent lines (the body) at 72 characters.
+* Start the subject line with a capital letter. Do not end it with a period.
+* Use the imperative mood to describe the changes.
+* List each change as an individual item in a bulleted list. Use the hyphen (`-`) as the bullet point.
+* Start the list item with a capital letter and end it with a period.
+* Write `[skip]` or `[ignore]` on a separate line to avoid creating a changelog entry.
+* Write `[version=yyyy-mm-dd]` on a separate line to enforce a version different from the one that would be automatically derived from the commit date.
 
-For example, the following commit message
+If several AI files are changed in a single commit, the generated changelog entry and version identifier will be the same for all of them.
 
-    Fix typos and color in concentrations graphic
+If multiple commits are pushed at once, all the changes are processed and the changelogs are updated in one subsequent commit.
+
+**Notice:** Since the state of the repository may change after pushing changes (either by other contributors or by the automated generation of changelogs), it is advisable to pull from the repository before pushing any new changes. The preferred practice is to run `git pull --rebase` before each editing session. In case you already have uncommitted changes, use `git pull --rebase --autostash`.
+
+**Example:** The following commit message
+
+    Fix typos and color in CO2 concentrations graphic
 
     - Change 'CO2' to 'O2' in 'Decrease in the concentration of O2'.
-    - Fix red color to match FoK color palette.
+    - Fix spelling in legend.
+    - Change red color to match FoK color palette.
+    - Darken the whites and lighten the blacks.
 
-would generate a changelog entry such as
+would generate a changelog entry such as (assuming it was committed on February 19, 2021)
 
 >   [**2021-02-19**](#)
 >
 >   - Change 'CO2' to 'O2' in 'Decrease in the concentration of O2'.
->   - Fix red color to match FoK color palette."
+>   - Fix spelling in legend.
+>   - Change red color to match FoK color palette.
+>   - Darken the whites and lighten the blacks.
 
-with the version link pointing...
+with the version link pointing to to the corresponding revision of the source AI file.
 
-An example of a **commit message w/ version date fix**
+Notice that the subject line (“Fix typos and color in CO2 concentrations graphic”) is discarded and only the commit message body is used for the changelog.
 
-```
-git commit -m "Data update
+**Example:** The following commit message **forces a specific version** to be displayed in the changelog
 
-- Update to emissions data from 2020.
+    Data update
 
-[version=2021-01-01]"
-```
+    - Update for emissions data from 2020.
 
-An example of a **commit message ignored in the changelog**
+    [version=2021-01-30]
 
-```
-git commit -m "Typo update
+It would generate the following entry, independent of the commit date:
 
-- Fix wrong year in the title (2019 → 2020).
+>   [**2021-01-30**](#)
+>
+>   - Update for emissions data from 2020.
 
-[skip]"
-```
+**Example:** The following message would enforce that the **commit be skipped** for the purposes of changelog generation and no entry would be added:
 
-In case multiple commits are pushed at once, all the changes are processed and updated in one subsequent commit. -> So it is necessary, to remember to "pull" after each push.
-Ideally, before each session, use `git pull --rebase`. In case you already have uncommitted changes, use `git pull --rebase --autostash`.
+    Typo update
+
+    - Fix wrong year in the title (2019 → 2020).
+
+    [skip]
+
+This is useful, for instance, ... when? <mark>TODO: Is this feature really useful? Wouldn't we want a kind of "squash" feature instead?</mark>
 
 ## Fonts We Use
 
@@ -108,7 +129,7 @@ Ideally, before each session, use `git pull --rebase`. In case you already have 
 
 TBD
 
-## Typo Guidelines
+## Typography Guidelines
 
 TBD
 
