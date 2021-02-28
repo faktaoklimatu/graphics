@@ -1,4 +1,4 @@
-I am just a baby readme page. But expect me to grow up soon. :)
+<mark>TODO: Write a nice intro 🌱</mark>
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ The repository is organised into two main directories: a) `data-visualization` w
 
 The `data-visualization` directory is furthermore structured hierarchically as follows:
 
-1.  The first level of the hierarchy encompasses a **broad categorization** into (at the moment) four main categories: `climate-indicators`, `emissions`, `energetics`, `future` and `policies`.
+1.  The first level of the hierarchy divides the graphics into (at the moment) five **broad categories**: `climate-indicators`, `emissions`, `energetics`, `future` and `policies`.
 2.  At the second level we divide the graphics into four **geographic regions**: `czechia`, `slovakia`, `european-union` or `world`.
 
     This classification is common among all first-level categories, i.e. we can have `climate-indicators/world/` as well as `policies/world/` or `policies/european-union/`.
@@ -25,8 +25,6 @@ The `data-visualization` directory is furthermore structured hierarchically as f
 4.  The **language** and the **title** of a specific graphic is given in its file name in the format `<language>-<title>.ai`, for example `cs-emise-cr.ai` or `en-emissions-czechia.ai`.
 
     The language is specified by its two-letter [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), for instance `cs` for Czech, `en` for English, `fa` for Persian, etc.
-
-<mark>TODO: Explain the different extensions/file types and their relations – `.ai`, `.pdf`, `.changelog.md`.</mark>
 
 The `_util` directory contains source code for the repository's automation facilities.
 
@@ -54,7 +52,7 @@ Here is a preview of the directory structure of the repository:
 
 Each major (published) change in a graphic or set of related graphics should be committed in this repository.
 
-Every AI file has a corresponding changelog file associated with it. The changelog file name is the same as the source file except for the extension `.changelog.md`. For instance,
+Every AI file has a corresponding changelog file associated with it. The changelog file name is the same as the source file except for the extension `.changelog.md`. For instance, the changelog associated with the AI file `cs-emise-cr.ai` is called `cs-emise-cr.changelog.md`.
 
 Every time a change is made to an AI file, an entry is added to the corresponding changelog. The entry consists only of the body of commit message, i.e. the third and following lines. The graphic version is automatically derived from the date of the commit, i.e. a change committed on March 15, 2020 would automatically be assigned the version `2020-03-15`. (Though this can be overridden, see below.)
 
@@ -117,8 +115,6 @@ It would generate the following entry, independent of the commit date:
     - Fix wrong year in the title (2019 → 2020).
 
     [skip]
-
-This is useful, for instance, ... when? <mark>TODO: Is this feature really useful? Wouldn't we want a kind of "squash" feature instead?</mark>
 
 ## Fonts We Use
 
