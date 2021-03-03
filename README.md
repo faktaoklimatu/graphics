@@ -22,9 +22,11 @@ The `data-visualization` directory is furthermore structured hierarchically as f
 3.  The **topic** of a graphic or a set of graphics is specified at the third level.
 
     This can be, for example, `ghg-emissions-in-czechia-by-sector` for the [donut chart](https://faktaoklimatu.cz/infografiky/emise-cr-detail) of Czechia's greenhouse gas emissions (and its variations) or `carbon-pricing` for the [map](https://faktaoklimatu.cz/infografiky/zpoplatneni-emisi-svet) of carbon pricing schemes in countries across the world.
-4.  The **language** and the **title** of a specific graphic is given in its file name in the format `<language>-<title>.ai`, for example `cs-emise-cr.ai` or `en-emissions-czechia.ai`.
+4.  The **language** and the **slug** of a specific graphic is given in its file name in the format `<language>-<slug>.ai`, e.g. `cs-emise-cr.ai` or `en-emissions-czechia.ai`.
 
     The language is specified by its two-letter [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), for instance `cs` for Czech, `en` for English, `fa` for Persian, etc.
+
+    The _slug_ is a simplified version of the title. It is mainly used in URLs. From the file name `cs-body-zlomu-3.pdf` we can infer that the language of the graphic is Czech and that it is most likely available at <https://faktaoklimatu.cz/infografiky/body-zlomu-3>. (It indeed is!)
 
 The `_util` directory contains source code for the repository's automation facilities.
 
