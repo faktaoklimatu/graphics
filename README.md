@@ -8,6 +8,7 @@
 * [Templates](#templates)
 * [Typography Guidelines](#typography-guidelines)
 * [License](#license)
+* [See Also](#see-also)
 
 ## Repository Structure
 
@@ -134,3 +135,8 @@ TBD
 ## License
 
 All our graphics are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+## See Also
+
+* [web-cz](https://github.com/faktaoklimatu/web-cz), [web-sk](https://github.com/faktaoklimatu/web-sk) and [web-en](https://github.com/faktaoklimatu/web-en) – repositories with sources for the Czech, Slovak and English language versions of our website, respectively
+* [web-core](https://github.com/faktaoklimatu/web-core) – repository with source code shared among all the language variants
