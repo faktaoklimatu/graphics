@@ -110,7 +110,6 @@ if __name__ == '__main__':
 
     logging.basicConfig(format='[%(levelname)s] %(message)s',
                         level=logging.INFO)
-    logger = logging.getLogger()
 
     git_log_output = sys.stdin.read()
     if not git_log_output:
@@ -123,15 +122,15 @@ if __name__ == '__main__':
     num_commits = len(git_log_lines)
     for i, log_entry in enumerate(git_log_lines):
         commit = Commit.parse_from_log(log_entry)
-        logger.info('[%2d/%2d] Parsed commit %s authored %s', i + 1, num_commits,
+        logging.info('[%2d/%2d] Parsed commit %s authored %s', i + 1, num_commits,
                     commit.sha1, commit.author_date)
 
         if not commit.has_body:
-            logger.info('Skipping due to empty body')
+            logging.info('Skipping due to empty body')
             continue
 
         if commit.has_skip_flag:
-            logger.info('Skipping due to flag')
+            logging.info('Skipping due to flag')
             continue
 
         # Ask git which files were changed (A-added or M-modified) in
@@ -144,28 +143,28 @@ if __name__ == '__main__':
                   stdout=PIPE, stderr=PIPE, check=False, encoding='utf-8')
 
         if cmd.returncode:
-            logger.error('git show failed with code %d: %s',
-                         cmd.returncode, cmd.stderr)
+            logging.error('git show failed with code %d: %s',
+                          cmd.returncode, cmd.stderr)
             sys.exit(1)
 
         if not cmd.stdout:
-            logger.warning('No files changed. Skipping')
+            logging.warning('No files changed. Skipping')
             continue
 
         # Parse the list of files and filter AI files of interest.
         commit.parse_file_list(cmd.stdout)
-        logger.info('File list parsed')
+        logging.info('File list parsed')
 
         ai_files = [path for path in commit.files if path.suffix == '.ai']
 
         if not ai_files:
-            logger.info('No AI files changed. Skipping')
+            logging.info('No AI files changed. Skipping')
             continue
 
         # Generate/update changelog for each modified AI file.
         for ai_path in ai_files:
-            logger.info('Generating changelog for %s version %s',
-                        ai_path, commit.version)
+            logging.info('Generating changelog for %s version %s',
+                         ai_path, commit.version)
 
             changelog_path = ai_path.with_suffix('.changelog.md')
 
@@ -180,11 +179,11 @@ if __name__ == '__main__':
                 f'{entry_heading}\n\n{commit.clean_body}\n' + \
                 changelogs[changelog_path]
 
-    logger.info('All changes processed')
+    logging.info('All changes processed')
 
     num_changelogs = len(changelogs)
     for i, (path, contents) in enumerate(changelogs.items()):
         path.write_text(contents, encoding='utf-8')
-        logger.info('[%2d/%2d] Saved changelog %s', i + 1, num_changelogs, path)
+        logging.info('[%2d/%2d] Saved changelog %s', i + 1, num_changelogs, path)
 
-    logger.info('All changelogs saved')
+    logging.info('All changelogs saved')
