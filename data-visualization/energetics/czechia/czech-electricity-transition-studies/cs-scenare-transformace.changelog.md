@@ -1,4 +1,4 @@
-## [2021-06-07](https://github.com/faktaoklimatu/graphics/blob/a8093e314d59e3972a32fc32888972a5e07d2069/data-visualization/energetics/czechia/czech-electricity-transition-studies/cs-scenare-transformace.ai)
+## [2021-06-07](https://github.com/faktaoklimatu/graphics/blob/cd3284d7d1e0d5674dbfe2af93f7dfe56411bd96/data-visualization/energetics/czechia/czech-electricity-transition-studies/cs-scenare-transformace.ai)
 
 - All studies: Change order of categories in the installed capacity.
 - Ember: Update emissions value.
