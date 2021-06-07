@@ -1,3 +1,8 @@
+## [2021-06-07](https://github.com/faktaoklimatu/graphics/blob/e3b381d4f5d904aa56582bc12e1894a2cb427892/data-visualization/policies/czechia/emission-decrease-potential-in-czechia/cs-potencial-zpusobu-snizeni-emisi.ai)
+
+- Update emissions values of BloombergNEF, Ember and Energynautics.
+- Add McKinsey values.
+
 ## [2021-04-01](https://github.com/faktaoklimatu/graphics/blob/24337e63b14ae0922d337bc61934d863caaa7f56/data-visualization/policies/czechia/emission-decrease-potential-in-czechia/cs-potencial-zpusobu-snizeni-emisi.ai)
 
 - Add Ember transformation study.
