@@ -1,4 +1,4 @@
-## [2021-06-07](https://github.com/faktaoklimatu/graphics/blob/94fc559ea4e7f342722eb839213031ceb7243f96/data-visualization/energetics/czechia/transition-studies-comparison/cs-srovnani-energetickych-scenaru-cr.ai)
+## [2021-06-07](https://github.com/faktaoklimatu/graphics/blob/cd3284d7d1e0d5674dbfe2af93f7dfe56411bd96/data-visualization/energetics/czechia/transition-studies-comparison/cs-srovnani-energetickych-scenaru-cr.ai)
 
 - Update data for BloombergNEF hydro.
 - Change order of studies.
