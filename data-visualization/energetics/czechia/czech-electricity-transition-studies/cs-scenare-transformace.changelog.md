@@ -1,3 +1,7 @@
+## [2021-06-11](https://github.com/faktaoklimatu/graphics/blob/022005fd3502be57a3a3ae30652ec5579b759588/data-visualization/energetics/czechia/czech-electricity-transition-studies/cs-scenare-transformace.ai)
+
+- Update McKinsey hydro values.
+
 ## [2021-06-10](https://github.com/faktaoklimatu/graphics/blob/6cf9913c935567b79b053ea78d85c385a32fa15a/data-visualization/energetics/czechia/czech-electricity-transition-studies/cs-scenare-transformace.ai)
 
 - Move single-letter words at the end of line to the next line.
