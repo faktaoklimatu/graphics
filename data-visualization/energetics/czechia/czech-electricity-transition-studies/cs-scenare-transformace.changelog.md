@@ -1,3 +1,7 @@
+## [2021-06-21](https://github.com/faktaoklimatu/graphics/blob/909253374f25488d84b3a6b995c082c80ca27f5f/data-visualization/energetics/czechia/czech-electricity-transition-studies/cs-scenare-transformace.ai)
+
+- Change wording in the About section of McKinsey study.
+
 ## [2021-06-11](https://github.com/faktaoklimatu/graphics/blob/0db30c442fac80ec0fb86e2095d48fc1bc896efb/data-visualization/energetics/czechia/czech-electricity-transition-studies/cs-scenare-transformace.ai)
 
 - Update McKinsey hydro values.
