@@ -5,8 +5,6 @@ This repository contains all graphics, including both the source and published f
 * [Repository Structure](#repository-structure)
 * [Committing Guidelines](#committing-guidelines)
 * [Fonts We Use](#fonts-we-use)
-* [Templates](#templates)
-* [Typography Guidelines](#typography-guidelines)
 * [License](#license)
 * [See Also](#see-also)
 
@@ -124,13 +122,13 @@ It would generate the following entry, independent of the commit date:
 - Titles: [Akrobat](https://www.fontfabric.com/fonts/akrobat/)
 - Everything else: [Roboto](https://fonts.google.com/specimen/Roboto)
 
-## Templates
+<!--- ## Templates
 
 TBD
 
 ## Typography Guidelines
 
-TBD
+TBD --->
 
 ## License
 
