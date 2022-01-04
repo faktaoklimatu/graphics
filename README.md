@@ -1,4 +1,4 @@
-<mark>TODO: Write a nice intro 🌱</mark>
+This repository contains all graphics, including both the source and published files, created for our websites covering climate change. The websites can be found at faktaoklimatu.cz (in Czech, currently the biggest site), faktyoklime.sk (in Slovak) and factsonclimate.org (in English, currently only a titlepage placeholder).
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@ The `data-visualization` directory is furthermore structured hierarchically as f
     This can be, for example, `ghg-emissions-in-czechia-by-sector` for the [donut chart](https://faktaoklimatu.cz/infografiky/emise-cr-detail) of Czechia's greenhouse gas emissions (and its variations) or `carbon-pricing` for the [map](https://faktaoklimatu.cz/infografiky/zpoplatneni-emisi-svet) of carbon pricing schemes in countries across the world.
 4.  The **language** and the **slug** of a specific graphic is given in its file name in the format `<language>-<slug>.ai`, e.g. `cs-emise-cr.ai` or `en-emissions-czechia.ai`.
 
-    The language is specified by its two-letter [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), for instance `cs` for Czech, `en` for English, `fa` for Persian, etc.
+    The language is specified by its two-letter [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), for instance `cs` for Czech, `en` for English, `sk` for Slovak, `fa` for Persian, etc.
 
     The _slug_ is a simplified version of the title. It is mainly used in URLs. From the file name `cs-body-zlomu-3.pdf` we can infer that the language of the graphic is Czech and that it is most likely available at <https://faktaoklimatu.cz/infografiky/body-zlomu-3>. (It indeed is!)
 
