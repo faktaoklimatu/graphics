@@ -1,3 +1,7 @@
+## [2022-01-13](https://github.com/faktaoklimatu/graphics/blob/9fdd93de24e038fae0867cae273b05886ee4c8f0/data-visualization/future/world/concept-global-carbon-budget/cs-koncept-uhlikovy-rozpocet.ai)
+
+- Change typos.
+
 ## [2021-08-11](https://github.com/faktaoklimatu/graphics/blob/9dba2525d0640b7738365026c538b609d429e026/data-visualization/future/world/concept-global-carbon-budget/cs-koncept-uhlikovy-rozpocet.ai)
 
 - Update data from AR6 to be referenced to year 2020 (instead of 2021 as was originally in dataset)
