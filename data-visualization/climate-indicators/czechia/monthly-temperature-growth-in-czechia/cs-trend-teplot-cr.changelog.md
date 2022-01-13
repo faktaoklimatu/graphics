@@ -1,3 +1,7 @@
+## [2022-01-12](https://github.com/faktaoklimatu/graphics/blob/e8f5a48676ab45dffbd8ce5e29742de58e174621/data-visualization/climate-indicators/czechia/monthly-temperature-growth-in-czechia/cs-trend-teplot-cr.ai)
+
+- Add data for 2021.
+
 ## [2021-02-27](https://github.com/faktaoklimatu/graphics/blob/8fbfe5a13b8bd1c391b7a8c2ee9808c911cd113d/data-visualization/climate-indicators/czechia/monthly-temperature-growth-in-czechia/cs-trend-teplot-cr.ai)
 
 - Update graphic with data for 2020.
