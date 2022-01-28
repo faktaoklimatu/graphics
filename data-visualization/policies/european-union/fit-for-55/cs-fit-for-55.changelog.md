@@ -1,3 +1,7 @@
+## [2020-01-20](https://github.com/faktaoklimatu/graphics/blob/dd3e534a52a8a3ec3aa5eef05ee66a3da9f03712/data-visualization/policies/european-union/fit-for-55/cs-fit-for-55.ai)
+
+- Fix line break.
+
 ## [2022-01-20](https://github.com/faktaoklimatu/graphics/blob/9547ebd0aa6e7fc11e7ff8d6f6f36b7a61631d0d/data-visualization/policies/european-union/fit-for-55/cs-fit-for-55.ai)
 
 - Update version.
