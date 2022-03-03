@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
+import logging
+import re
+import sys
+import urllib.parse
 from collections import defaultdict
 from dataclasses import dataclass, field
 from datetime import datetime
-import logging
 from pathlib import Path
-import re
 from subprocess import PIPE, run
-import sys
 from typing import Dict, List, Optional
-import urllib.parse
 
 
 IGNORED_COMMIT_RE = re.compile(r'^\s*\[(skip|ignore)\]\s*$',
