@@ -1,3 +1,7 @@
+## [2022-03-14](https://github.com/faktaoklimatu/graphics/blob/4d8c1aa13ebbe293374ce82dcb7a41665473b3a8/data-visualization/climate-indicators/czechia/annual-average-temperature-in-czechia/cs-teplota-cr.ai)
+
+- Update average annual temperature of 2021.
+
 ## [2022-01-11](https://github.com/faktaoklimatu/graphics/blob/bb537b03e360c560026a91678661dadbbbf381d0/data-visualization/climate-indicators/czechia/annual-average-temperature-in-czechia/cs-teplota-cr.ai)
 
 - Add data for 2021.
