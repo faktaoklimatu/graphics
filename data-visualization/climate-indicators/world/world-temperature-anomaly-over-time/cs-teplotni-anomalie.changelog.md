@@ -1,3 +1,7 @@
+## [2022-02-03](https://github.com/faktaoklimatu/graphics/blob/8c3bb69b1afb5b31dda5fb86318862083139b18b/data-visualization/climate-indicators/world/world-temperature-anomaly-over-time/cs-teplotni-anomalie.ai)
+
+- Change temperatury anomaly definition.
+
 ## [2022-01-14](https://github.com/faktaoklimatu/graphics/blob/4af75da2569009dff4e9acec3bcf88edeabf3889/data-visualization/climate-indicators/world/world-temperature-anomaly-over-time/cs-teplotni-anomalie.ai)
 
 - Add data for 2021.
