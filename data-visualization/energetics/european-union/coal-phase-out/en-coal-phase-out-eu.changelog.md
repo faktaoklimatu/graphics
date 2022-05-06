@@ -1,3 +1,7 @@
+## [2022-05-02](https://github.com/faktaoklimatu/graphics/blob/d9e2752fc0ca3e14e62ebe949612e2ac32ca5050/data-visualization/energetics/european-union/coal-phase-out/en-coal-phase-out-eu.ai)
+
+- Upload English translation.
+
 ## [2021-04-28](https://github.com/faktaoklimatu/graphics/blob/37e00c27cccbb13bae969ad227b0a807ced34eae/data-visualization/energetics/european-union/coal-phase-out/en-coal-phase-out-eu.ai)
 
 - Update dates for Greece (2028 → 2025), Denmark (2030 → 2028), Hungary
