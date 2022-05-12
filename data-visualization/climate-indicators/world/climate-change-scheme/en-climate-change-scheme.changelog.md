@@ -1,3 +1,9 @@
+## [2022-05-12](https://github.com/faktaoklimatu/graphics/blob/6b22358767d535a9b5ec33e9ca931a91fe29059c/data-visualization/climate-indicators/world/climate-change-scheme/en-climate-change-scheme.ai)
+
+- Change name.
+- Add slug.
+- Add logo.
+
 ## [2021-01-18](https://github.com/faktaoklimatu/graphics/blob/fae3ec921cb635ca1bed3e525d0575d45795f1b2/data-visualization/climate-indicators/world/schema-of-climate-change/en-climate-change-schema.ai)
 
 - Change CO2 to O2 in "Decrease in the concentration of O2".
