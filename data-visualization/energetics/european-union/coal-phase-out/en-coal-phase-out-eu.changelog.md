@@ -1,3 +1,7 @@
+## [2022-05-12](https://github.com/faktaoklimatu/graphics/blob/1d3fb255344e87a23d3d23282ddd9d061b6a7574/data-visualization/energetics/european-union/coal-phase-out/en-coal-phase-out-eu.ai)
+
+- Add slug.
+
 ## [2022-05-02](https://github.com/faktaoklimatu/graphics/blob/d9e2752fc0ca3e14e62ebe949612e2ac32ca5050/data-visualization/energetics/european-union/coal-phase-out/en-coal-phase-out-eu.ai)
 
 - Update data.

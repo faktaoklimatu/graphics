@@ -1,3 +1,7 @@
+## [2022-05-12](https://github.com/faktaoklimatu/graphics/blob/d65ddc4b7e394b901f462f86ac838fa77f131fdb/data-visualization/policies/european-union/eu-taxonomy/cs-taxonomie-eu.ai)
+
+- Add slug.
+
 ## [2022-05-12](https://github.com/faktaoklimatu/graphics/blob/594b7ecd1302c1f3c5d1a6faddf9a384922cdf2a/data-visualization/policies/european-union/eu-taxonomy/cs-taxonomie-eu.ai)
 
 - Korektura a editace textu.
