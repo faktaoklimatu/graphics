@@ -14,8 +14,12 @@ The repository is organised into two main directories: a) `data-visualization` w
 
 The `data-visualization` directory is furthermore structured hierarchically as follows:
 
-1.  The first level of the hierarchy divides the graphics into (at the moment) five **broad categories**: `climate-indicators`, `emissions`, `energetics`, `future` and `policies`.
-2.  At the second level we divide the graphics into four **geographic regions**: `czechia`, `slovakia`, `european-union` or `world`.
+1.  The first of the hierarchy divides the graphics into `explainers`, `infographics` and `social-networks`, respectively to their format.
+    `explainers` include graphics we create to accompany texts in explainers.
+    `infographics` include our main stand-alone graphics.
+    `social-networks` serve as a directory for graphics created for our social media presence.
+2.  The second level of the `infographics` hierarchy further divides the graphics into (at the moment) five **broad categories**: `climate-indicators`, `emissions`, `energetics`, `future` and `policies`.
+3.  At the third level we divide the graphics into four **geographic regions**: `czechia`, `slovakia`, `european-union` or `world`.
 
     This classification is common among all first-level categories, i.e. we can have `climate-indicators/world/` as well as `policies/world/` or `policies/european-union/`.
 3.  The **topic** of a graphic or a set of graphics is specified at the third level.
