@@ -1,3 +1,8 @@
+## [2022-05-16](https://github.com/faktaoklimatu/graphics/blob/338333504f402abbe412ec384cc85d2728224856/data-visualization/infographics/policies/european-union/eu-taxonomy/en-eu-taxonomy.ai)
+
+- Edit paragraph styles.
+- Darken orange background.
+
 ## [2022-05-12](https://github.com/faktaoklimatu/graphics/blob/5789c7e08f23ba413b9f65efdf7de2bad873772f/data-visualization/policies/european-union/eu-taxonomy/en-eu-taxonomy.ai)
 
 - Add slug.
