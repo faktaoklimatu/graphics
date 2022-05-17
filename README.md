@@ -2,11 +2,12 @@ This repository contains all graphics, including both the source and published f
 
 ## Table of Contents
 
-* [Repository Structure](#repository-structure)
-* [Committing Guidelines](#committing-guidelines)
-* [Fonts We Use](#fonts-we-use)
-* [License](#license)
-* [See Also](#see-also)
+- [Table of Contents](#table-of-contents)
+- [Repository Structure](#repository-structure)
+- [Committing Guidelines](#committing-guidelines)
+- [Fonts We Use](#fonts-we-use)
+- [License](#license)
+- [See Also](#see-also)
 
 ## Repository Structure
 
@@ -14,7 +15,7 @@ The repository is organised into two main directories: a) `data-visualization` w
 
 The `data-visualization` directory is furthermore structured hierarchically as follows:
 
-1.  The first of the hierarchy divides the graphics into `explainers`, `infographics` and `social-networks`, respectively to their format.
+1.  The first of the hierarchy divides the graphics into `explainers`, `infographics` and `social-networks`, respective of their format.
     `explainers` include graphics we create to accompany texts in explainers.
     `infographics` include our main stand-alone graphics.
     `social-networks` serve as a directory for graphics created for our social media presence.
@@ -36,20 +37,24 @@ The `_util` directory contains source code for the repository's automation facil
 Here is a preview of the directory structure of the repository:
 
     ├── data-visualization
-    │   └── emissions                                   ←  Main category
-    │       └── czechia                                 ←  Geographic region
-    │           └── ghg-emissions-in-czechia-by-sector  ←  Datavis topic
-    │               ├── cs-emise-cr.ai
-    │               ├── cs-emise-cr.changelog.md
-    │               ├── cs-emise-cr.pdf
-    │               ├── en-emissions-czechia.ai
-    │               ├── en-emissions-czechia.changelog.md
-    │               ├── en-emissions-czechia.pdf
-    │               └── ...
-    ├── Brand
-    │   ├── logo.ai
-    │   ├── logo.changelog.md
-    │   └── ...
+    │   └── explainers
+    │   └── infographics
+    │       └── emissions                                       ←  Main category
+    │           └── czechia                                     ←  Geographic region
+    │               └── ghg-emissions-in-czechia-by-sector      ←  Datavis topic
+    │                   ├── cs-emise-cr.ai
+    │                   ├── cs-emise-cr.changelog.md
+    │                   ├── cs-emise-cr.pdf
+    │                   ├── en-emissions-czechia.ai
+    │                   ├── en-emissions-czechia.changelog.md
+    │                   ├── en-emissions-czechia.pdf
+    │                   └── ...
+    │   └── social-networks
+    ├── brand
+    │   └── cs-logo
+    │       └── logo-zakladni
+    │       └── single-line-versions
+    │   └── sk-logo
     └── _util
         └── ...
 
