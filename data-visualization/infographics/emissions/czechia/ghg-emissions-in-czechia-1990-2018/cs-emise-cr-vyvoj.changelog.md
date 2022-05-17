@@ -1,3 +1,7 @@
+## [2022-05-17](https://github.com/faktaoklimatu/graphics/blob/2cf41b63c45c61dfdaccc7d4b588acb188c6d7b3/data-visualization/infographics/emissions/czechia/ghg-emissions-in-czechia-1990-2018/cs-emise-cr-vyvoj.ai)
+
+- Add greenhouse gas emissions in the title.
+
 ## [2022-01-18](https://github.com/faktaoklimatu/graphics/blob/d88e05b858a42a53d0dc61f8cb01dbf329bb8d39/data-visualization/emissions/czechia/ghg-emissions-in-czechia-1990-2018/cs-emise-cr-vyvoj.ai)
 
 - Typographic and layout changes.
