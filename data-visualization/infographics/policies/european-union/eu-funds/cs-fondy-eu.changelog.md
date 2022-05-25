@@ -1,3 +1,7 @@
+## [2022-05-25](https://github.com/faktaoklimatu/graphics/blob/e7aecee81e77250233e6ff3760be1aa27e6a516d/data-visualization/infographics/policies/european-union/eu-funds/cs-fondy-eu.ai)
+
+- Edit Innovation Fund recipients.
+
 ## [2022-04-07](https://github.com/faktaoklimatu/graphics/blob/c20fb3cb8ded3a7bdd5f6e6807d0e7d5983cd099/data-visualization/policies/european-union/eu-funds/cs-fondy-eu.ai)
 
 - Add a footnote to ESI funds.
