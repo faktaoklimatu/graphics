@@ -37,23 +37,23 @@ The `_util` directory contains source code for the repository's automation facil
 Here is a preview of the directory structure of the repository:
 
     ├── data-visualization
-    │   └── explainers
-    │   └── infographics
-    │       └── emissions                                       ←  Main category
-    │           └── czechia                                     ←  Geographic region
-    │               └── ghg-emissions-in-czechia-by-sector      ←  Datavis topic
-    │                   ├── cs-emise-cr.ai
-    │                   ├── cs-emise-cr.changelog.md
-    │                   ├── cs-emise-cr.pdf
-    │                   ├── en-emissions-czechia.ai
-    │                   ├── en-emissions-czechia.changelog.md
-    │                   ├── en-emissions-czechia.pdf
-    │                   └── ...
+    │   ├── explainers
+    │   ├── infographics
+    │   │   └── emissions                                       ←  Main category
+    │   │       └── czechia                                     ←  Geographic region
+    │   │           └── ghg-emissions-in-czechia-by-sector      ←  Datavis topic
+    │   │               ├── cs-emise-cr.ai
+    │   │               ├── cs-emise-cr.changelog.md
+    │   │               ├── cs-emise-cr.pdf
+    │   │               ├── en-emissions-czechia.ai
+    │   │               ├── en-emissions-czechia.changelog.md
+    │   │               ├── en-emissions-czechia.pdf
+    │   │               └── ...
     │   └── social-networks
     ├── brand
-    │   └── cs-logo
-    │       └── logo-zakladni
-    │       └── single-line-versions
+    │   ├── cs-logo
+    │   │   ├── logo-zakladni
+    │   │   └── single-line-versions
     │   └── sk-logo
     └── _util
         └── ...
