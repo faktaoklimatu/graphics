@@ -19,7 +19,8 @@ jobs:
       - name: Generate changelogs
         run: |
           git log -z --reverse --pretty='format:%H %at %s%n%b' \
-            --diff-filter=AM ${{ github.event.before }}.. -- \*.ai | \
+            --diff-filter=AM ${{ github.event.before }}.. \
+            -- data-visualization/infographics/\*.ai | \
             _util/generate_changelogs.py ${{ github.repository }}
 
       - name: Commit and push changes
