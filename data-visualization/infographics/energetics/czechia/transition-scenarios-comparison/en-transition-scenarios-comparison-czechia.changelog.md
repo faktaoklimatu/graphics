@@ -1,3 +1,7 @@
+## [2022-06-04](https://github.com/faktaoklimatu/graphics/blob/6e46a7489ef4e96ac52fab41debd473bac42ae66/data-visualization/infographics/energetics/czechia/transition-scenarios-comparison/en-transition-scenarios-comparison-czechia.ai)
+
+- Fix slug.
+
 ## [2022-05-12](https://github.com/faktaoklimatu/graphics/blob/40e3e133489588b30c3e4c327bb38da99ec2b109/data-visualization/energetics/czechia/transition-scenarios-comparison/en-transition-scenarios-comparison.ai)
 
 - Add slug.
