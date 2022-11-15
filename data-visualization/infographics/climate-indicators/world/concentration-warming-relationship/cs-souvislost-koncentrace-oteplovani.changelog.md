@@ -1,3 +1,7 @@
+## [2022-11-15](https://github.com/faktaoklimatu/graphics/blob/a89b17493b2ffc021f674d218cbb845c627d2e46/data-visualization/infographics/climate-indicators/world/concentration-warming-relationship/cs-souvislost-koncentrace-oteplovani.ai)
+
+- Edit number of countries that ratified the Paris agreement: 192 → 193.
+
 ## [2021-08-08](https://github.com/faktaoklimatu/graphics/blob/214a0d0d28394b1e0127818d2bc43d0c50b28d8a/data-visualization/climate-indicators/world/concentration-warming-relationship/cs-souvislost-koncentrace-oteplovani.ai)
 
 

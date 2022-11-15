@@ -1,3 +1,8 @@
+## [2022-11-15](https://github.com/faktaoklimatu/graphics/blob/dfdeb10416977e95bfc9bdadbc1a6ffc71a834ec/data-visualization/infographics/future/world/tipping-points/cs-body-zlomu.ai)
+
+- Update texts.
+- Edit highlighted areas.
+
 ## [2022-01-03](https://github.com/faktaoklimatu/graphics/blob/823420dc25ea8a85fe05f943c82bf0ba46a00458/data-visualization/future/world/tipping-points/cs-body-zlomu.ai)
 
 - Correct terminology.

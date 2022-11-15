@@ -1,3 +1,7 @@
+## [2022-10-26](https://github.com/faktaoklimatu/graphics/blob/bfa510be833971483b34e7dd34065e821687eacd/data-visualization/infographics/emissions/czechia/ghg-emissions-in-czechia-by-sector/cs-emise-cr.ai)
+
+- Data as od 2020.
+
 ## [2021-06-11](https://github.com/faktaoklimatu/graphics/blob/ef825ba8ab3f4e83479abdd709f8bc347debef5f/data-visualization/emissions/czechia/ghg-emissions-in-czechia-by-sector/cs-emise-cr.ai)
 
 - Fix order of slices.

@@ -1,3 +1,7 @@
+## [2022-10-10](https://github.com/faktaoklimatu/graphics/blob/77e3b61647c75f396870d01e503645d0d77ab9c3/data-visualization/infographics/climate-indicators/world/co2-and-o2-concentration-cycles/cs-cykly-koncentrace-co2.ai)
+
+- Add data for 2021 and 2022.
+
 ## [2021-05-31](https://github.com/faktaoklimatu/graphics/blob/8f79e9f5b0b006b7a7a27cc84d2fd68fd516f343/data-visualization/climate-indicators/world/co2-and-o2-concentration-cycles/cs-cykly-koncentrace-co2.ai)
 
 - Add data for 2020 and 2021.
