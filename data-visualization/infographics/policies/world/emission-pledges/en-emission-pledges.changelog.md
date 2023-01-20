@@ -1,3 +1,7 @@
+## [2023-01-12](https://github.com/faktaoklimatu/graphics/blob/79019c5fd5b1f3e2823cf048f3b8bb94e268917a/data-visualization/infographics/policies/world/emission-pledges/en-emission-pledges.ai)
+
+- Edit subtitle.
+
 ## [2022-05-12](https://github.com/faktaoklimatu/graphics/blob/4cf0cbe7b64ab04ca46dfd9899239181aa7e4dca/data-visualization/policies/world/emission-pledges/en-emission-pledges.ai)
 
 - Add slug.
