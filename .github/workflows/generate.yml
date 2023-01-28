@@ -4,17 +4,17 @@ on:
     branches: [main]
 jobs:
   changelogs:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Check out sources
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
-            python-version: '^ 3.7'
+          python-version: '3.10'
 
       - name: Generate changelogs
         run: |
@@ -29,8 +29,8 @@ jobs:
             echo 'No change in changelogs' && \
             exit
 
-          git config --local user.name 'github-actions[bot]'
-          git config --local user.email 'github-actions@github.com'
+          git config --local user.name 'Automation'
+          git config --local user.email 'github-actions@noreply.github.com'
           git add .
           git commit --message 'Update changelogs'
           git push
