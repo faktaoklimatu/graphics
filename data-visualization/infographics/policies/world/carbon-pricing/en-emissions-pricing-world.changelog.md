@@ -1,3 +1,7 @@
+## [2023-02-21](https://github.com/faktaoklimatu/graphics/blob/63c0fadbcbb8ca254708d56cdcd32f65a214b127/data-visualization/infographics/policies/world/carbon-pricing/en-emissions-pricing-world.ai)
+
+- Edit subtitle.
+
 ## [2022-05-12](https://github.com/faktaoklimatu/graphics/blob/b2dc9141f5cb6bbd9368cf95575d2595ebba17a3/data-visualization/policies/world/carbon-pricing/en-emissions-pricing-world.ai)
 
 - Add slug.
