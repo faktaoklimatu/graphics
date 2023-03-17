@@ -1,3 +1,7 @@
+## [2022-11-22](https://github.com/faktaoklimatu/graphics/blob/4cc31a09a936daad9678c73d2007fa95351ece65/data-visualization/infographics/climate-indicators/world/co2-concentration-in-800-000-years/cs-koncentrace-co2.ai)
+
+- Edit layout.
+
 ## [2022-10-06](https://github.com/faktaoklimatu/graphics/blob/e307df32941bae2aa77ddaeffb966245a56dfc5a/data-visualization/infographics/climate-indicators/world/co2-concentration-in-800-000-years/cs-koncentrace-co2.ai)
 
 - Add data for 2021 and 2022.
