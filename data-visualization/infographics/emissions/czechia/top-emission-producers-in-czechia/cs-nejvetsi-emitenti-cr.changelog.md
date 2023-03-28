@@ -1,7 +1,3 @@
-## [2022-11-14](https://github.com/faktaoklimatu/graphics/blob/e2aeb53bd843dcac36327eb8f831d639d03276ca/data-visualization/infographics/emissions/czechia/top-emission-producers-in-czechia/cs-nejvetsi-emitenti-cr.ai)
-
-- Data as of 2020.
-
 ## [2021-03-02](https://github.com/faktaoklimatu/graphics/blob/96e14455de3656e1eb701cc9301d6b70f59aa91c/data-visualization/emissions/czechia/top-emission-producers-in-czechia/cs-nejvetsi-emitenti-cr.ai)
 
 - Added 'eq' suffix to CO2 in How to read chart section
