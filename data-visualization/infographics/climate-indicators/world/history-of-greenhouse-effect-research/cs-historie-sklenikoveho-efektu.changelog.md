@@ -1,3 +1,8 @@
+## [2022-10-13](https://github.com/faktaoklimatu/graphics/blob/a846a142b149583941a32d656e32b27385c44a0c/data-visualization/infographics/climate-indicators/world/history-of-greenhouse-effect-research/cs-historie-sklenikoveho-efektu.ai)
+
+- Add 1856 event.
+- Edit width of some text boxes.
+
 ## [2021-12-22](https://github.com/faktaoklimatu/graphics/blob/ad028127e391af4c1952183f50f45fa4a0955afc/data-visualization/climate-indicators/world/history-of-greenhouse-effect-research/cs-historie-sklenikoveho-efektu.ai)
 
 - Correction of misplaced years 1985 and 1988.
