@@ -1,3 +1,7 @@
+## [2023-03-28](https://github.com/faktaoklimatu/graphics/blob/9d28dbf57ae885c413257e5e99b053cfbd9f7e6e/data-visualization/infographics/climate-indicators/world/history-of-greenhouse-effect-research/cs-historie-sklenikoveho-efektu.ai)
+
+- Edit greys.
+
 ## [2022-10-13](https://github.com/faktaoklimatu/graphics/blob/a846a142b149583941a32d656e32b27385c44a0c/data-visualization/infographics/climate-indicators/world/history-of-greenhouse-effect-research/cs-historie-sklenikoveho-efektu.ai)
 
 - Add 1856 event.
