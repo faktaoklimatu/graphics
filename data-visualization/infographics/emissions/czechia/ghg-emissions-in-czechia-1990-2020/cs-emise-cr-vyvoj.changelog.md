@@ -1,3 +1,8 @@
+## [2023-03-28](https://github.com/faktaoklimatu/graphics/blob/5d9596b6291ff3a14d488e60c6138e0e37350d52/data-visualization/infographics/emissions/czechia/ghg-emissions-in-czechia-1990-2020/cs-emise-cr-vyvoj.ai)
+
+- Edit grays.
+- Edit position of data labels.
+
 ## [2022-10-11](https://github.com/faktaoklimatu/graphics/blob/52dfc7e67391b1793862f7e58d249258553f1901/data-visualization/infographics/emissions/czechia/ghg-emissions-in-czechia-1990-2020/cs-emise-cr-vyvoj.ai)
 
 - Add data for 2019 and 2020.
