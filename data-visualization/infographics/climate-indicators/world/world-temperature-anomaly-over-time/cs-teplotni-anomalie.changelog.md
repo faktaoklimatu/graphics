@@ -1,4 +1,4 @@
-## [2022-11-22](https://github.com/faktaoklimatu/graphics/blob/6786c270f7d10456b833b1617596d306b9dd83be/data-visualization/infographics/climate-indicators/world/world-temperature-anomaly-over-time/cs-teplotni-anomalie.ai)
+## [2022-11-22](https://github.com/faktaoklimatu/graphics/blob/cba32904beab1c7a0d4e042e3b5c2b1bea76a5a4/data-visualization/infographics/climate-indicators/world/world-temperature-anomaly-over-time/cs-teplotni-anomalie.ai)
 
 - Add annotations.
 - Edit grays.
