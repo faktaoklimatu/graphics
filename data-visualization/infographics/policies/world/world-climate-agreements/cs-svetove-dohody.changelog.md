@@ -1,3 +1,7 @@
+## [2023-04-13](https://github.com/faktaoklimatu/graphics/blob/2d329d35b737c71f8958b276bbb27dd7d20ded6f/data-visualization/infographics/policies/world/world-climate-agreements/cs-svetove-dohody.ai)
+
+- Edit grays.
+
 ## [2022-10-25](https://github.com/faktaoklimatu/graphics/blob/aa40c71512ac39f368e9322dfc2380200d002464/data-visualization/infographics/policies/world/world-climate-agreements/cs-svetove-dohody.ai)
 
 - Add new events.
