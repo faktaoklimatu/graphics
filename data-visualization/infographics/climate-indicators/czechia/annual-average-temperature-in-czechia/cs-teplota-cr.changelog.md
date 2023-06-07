@@ -1,4 +1,4 @@
-## [2022-11-22](https://github.com/faktaoklimatu/graphics/blob/3f4d5bec95165d677a858ae247600402d12d9828/data-visualization/infographics/climate-indicators/czechia/annual-average-temperature-in-czechia/cs-teplota-cr.ai)
+## [2022-11-22](https://github.com/faktaoklimatu/graphics/blob/ba1b7ddec5463e6481ac30027131d03bac22a2b6/data-visualization/infographics/climate-indicators/czechia/annual-average-temperature-in-czechia/cs-teplota-cr.ai)
 
 - Edit gridlines.
 
