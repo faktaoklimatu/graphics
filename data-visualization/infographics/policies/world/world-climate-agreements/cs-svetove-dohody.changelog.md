@@ -1,3 +1,7 @@
+## [2023-06-20](https://github.com/faktaoklimatu/graphics/blob/699d428c3b17661c83668270f329871396601aac/data-visualization/infographics/policies/world/world-climate-agreements/cs-svetove-dohody.ai)
+
+- Move COP16 in Cancún to 2010.
+
 ## [2023-04-13](https://github.com/faktaoklimatu/graphics/blob/2d329d35b737c71f8958b276bbb27dd7d20ded6f/data-visualization/infographics/policies/world/world-climate-agreements/cs-svetove-dohody.ai)
 
 - Edit grays.
